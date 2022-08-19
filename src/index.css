@@ -7,7 +7,7 @@
 
 /* for login.jsx */
 
-/* .container{
+.container{
   position: relative;
   top: 10vh;
   left: 30vw;
@@ -38,7 +38,7 @@
   margin: 2px;
   width: 300px;
   background-color: greenyellow;
-} */
+}
 
 /* react quiz css */
 
@@ -115,7 +115,7 @@ li:hover{
 
 /* Navbar */
 
-nav{
+/* nav{
   position: absolute;
   padding: 10px;
   width: 100vw;
@@ -174,3 +174,106 @@ li:hover{
   cursor: pointer;
   background-color: #6CE6EF;
 }
+
+@media screen and (max-width: 960px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  nav{
+   width: 100vw;
+   position: absolute;
+   background-color: #028090;
+   display: flex;
+   flex-direction: column;
+   line-height: 1.5rem;
+
+  }
+  
+  .logo{
+    padding: 5px;
+    margin: 3px;
+    color:#EADDD6;
+    display: flex;
+    justify-content: space-between;
+  }
+
+   .hamburger div{
+    height: 4px;
+    background-color: #fff;
+    margin-top: 5px;
+    border-radius: 25px;
+    transition: all 0.2s ease-in;
+  }
+
+  .hamburger{
+    position: relative;
+    bottom:15px;
+    width: 30px;
+    display: block;
+    margin: 1em 1em 0 0;
+  }
+
+  .line2{
+    width: 20px;
+  }
+
+  .hamburger:hover div{
+    width: 30px;
+  }
+
+  .pages{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  li{
+    width: 100vw;
+    height: 50px;
+    margin: 0px;
+    padding: 5px;
+    background-color: #16BAC5;
+  }
+
+  li a{
+    position: relative;
+    left: 40vw;
+    padding: 0;
+  }
+
+  li:hover{
+    background-color: #6CE6EF;
+    opacity: 0.8;
+    border-radius: 5px;
+  }
+
+  .btn{
+    width: 100vw;
+    height: 50px;
+    background-color: #16BAC5;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn:hover{
+    cursor: pointer;
+    background-color: #6CE6EF;
+  }
+
+  .hidden{
+    display: none;
+  }
+
+} */
+

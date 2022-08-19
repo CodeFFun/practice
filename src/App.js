@@ -1,12 +1,12 @@
 
-// import Login from './practicePage/Login';
+import Login from './practicePage/Login';
 // import ReactQuiz from "./practicePage/ReactQuiz";
-import Navbar from "./practicePage/Navbar";
+// import Navbar from "./practicePage/Navbar";
 
 
 function App() {
   return <div>
-    <Navbar />
+    <Login />
   </div>
    
 }
